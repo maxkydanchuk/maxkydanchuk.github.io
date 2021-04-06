@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,AAAC,CACF,OAAO,CAAE,aAAa,CACzB",
+    "sources": [
+        "../blocks/review.scss"
+    ],
+    "names": [],
+    "file": "review.min.css"
+}
