@@ -113,7 +113,7 @@ function toggleSlide(item) {
     });
 
     $(window).scroll(function () {
-        if($(this).scrollTop() > 1600){
+        if(($(this).scrollTop() > 1600 ) && ($(this).width() > 768)){
             $('.pageup').fadeIn();
         } else {
             $('.pageup').fadeOut();
