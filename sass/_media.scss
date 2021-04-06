@@ -247,7 +247,7 @@
     .footer {
         &__info {
             padding: 20px;
-            width: 320px;
+            min-width: 320px;
             height: 160px;
             address {
                 line-height: 20px;
