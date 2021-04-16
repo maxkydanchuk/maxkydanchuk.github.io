@@ -44,6 +44,12 @@ function toggleSlide(item) {
     $('.modal__close').on('click', function () {
         $('.overlay, #consultation, #thanks, #order').fadeOut();
     });
+    
+    $(document).keydown(function(e) { 
+        if (e.keyCode === 27) { 
+            $('.overlay, #consultation, #thanks, #order').fadeOut();
+        } 
+    });
 
     $('.button_mini').each(function (i) {
         $(this).on('click', function () {
@@ -214,7 +220,7 @@ function toggleSlide(item) {
 //           tabs[i].classList.add('catalog__tab_active');
 //       }
 //       hideTabContent();
-//       showTabContent(1);
+//       showTabContent();
 
 
 //       tabWrapper.addEventListener('click', (event) => {
@@ -225,10 +231,11 @@ function toggleSlide(item) {
 //                   if(target == item || target.parentElement == item) {
 //                     hideTabContent();
 //                     showTabContent(i);
+//                     console.log(i);
 //                   }
 //               });
 //           }
-//       });
+    //   });
 
 
 // const card = document.querySelectorAll('.catalog-item__content'),

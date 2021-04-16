@@ -73,6 +73,9 @@
             justify-content: center;
             align-items: center;
         }
+        &__tab {
+            font-size: 16px;
+        }
     }
     .feed {
         padding-bottom: 60px;
@@ -193,6 +196,7 @@
             text-align: center;
         }
         .feed-form {
+            margin: 36px auto auto auto;
             input {
                 width:280px;
                 padding:0 16px;
